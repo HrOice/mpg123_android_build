@@ -150,8 +150,7 @@ endif
 $(warning $(MPG123_CFLAGS))
 
 LOCAL_CFLAGS    := $(MPG123_CFLAGS)
-LOCAL_SRC_FILES := MP3Decoder.cpp \
-	MP3StreamDecoder.cpp $(MPG123_SRC_FILES)
+LOCAL_SRC_FILES := $(MPG123_SRC_FILES)
 LOCAL_LDLIBS    := -llog -g
 
  
